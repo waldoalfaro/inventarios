@@ -65,7 +65,7 @@ $anio = $ultimoDiaMes->format('Y');
             <!-- Tarjeta de productos_bibliotecas -->
             <div class="card text-white bg-warning shadow">
                 <div class="card-body text-center">
-                    <h5 class="card-title">Productos en Biblioteca</h5>
+                    <h5 class="card-title">Productos en Biblioteca, agragado de ejemplo </h5>
                     <p class="display-5"><?= $total_biblioteca ?></p>
                     <p class="card-text">Productos con menos de 10 unidades.</p>
                 </div>
