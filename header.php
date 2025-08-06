@@ -54,13 +54,13 @@ $isAlimentos= $tipo === 'Alimentos';
 
         <?php if ($isAdmin): ?>
           <li class="nav-item">
-            <a class="nav-link" href="/inventarios/usuarios/usuario.php">Usuarios</a>
+            <a class="nav-link" href="/inventarios/usuarios/usuario.php">Usuariossss</a>
           </li>
         <?php endif; ?>
 
         <?php if ($isAdmin || $isBodega): ?>
         <li class="nav-item">
-            <a class="nav-link" href="/inventarios/departamentos/bodega/bodega.php">Bodega</a>
+            <a class="nav-link" href="/inventarios/departamentos/bodega/bodega.php">Bodegasss</a>
         </li>
         <?php endif; ?>
 
@@ -68,13 +68,13 @@ $isAlimentos= $tipo === 'Alimentos';
 
         <?php if ($isAdmin || $isBiblio): ?>
         <li class="nav-item">
-            <a class="nav-link" href="/inventarios/departamentos/biblioteca/biblioteca.php">Biblioteca</a>
+            <a class="nav-link" href="/inventarios/departamentos/biblioteca/biblioteca.php">Bibliotecassss</a>
         </li>
         <?php endif; ?>
 
         <?php if ($isAdmin || $isAlimentos): ?>
         <li class="nav-item">
-            <a class="nav-link" href="/inventarios/departamentos/alimentos/alimentos.php">Alimentos</a>
+            <a class="nav-link" href="/inventarios/departamentos/alimentos/alimentos.php">Alimentosssss</a>
         </li>
         <?php endif; ?>
 
